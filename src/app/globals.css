@@ -1,0 +1,37 @@
+@import "tailwindcss";  
+
+@layer base {
+  ::-webkit-scrollbar { display: none; }
+  html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  body {
+    background-color: #FDF2F5;
+    color: #6E1F2A;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@theme {
+  --color-brand-pink: #F6C1CF;
+  --color-brand-cream: #FAF9F7;
+  --color-brand-maroon: #6E1F2A;
+}
+
+/* Explicit Utility Overrides for Cursive Fonts */
+@layer utilities {
+  .font-display, .font-cursive {
+    font-family: var(--font-great-vibes), cursive !important;
+  }
+  .font-body, .font-accent {
+    font-family: var(--font-dancing-script), cursive !important;
+  }
+}
+
+@utility bg-brand-pink { background-color: #F6C1CF; }
+@utility bg-brand-maroon { background-color: #6E1F2A; }
+@utility text-brand-maroon { color: #6E1F2A; }
