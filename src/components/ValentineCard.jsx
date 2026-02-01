@@ -4,15 +4,16 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
 const lyrics = [
-  { text: "The night we met I knew I needed you so", duration: 3200 },
-  { text: "And if I had the chance I'd never let you go", duration: 3200 },
-  { text: "So won't you say you love me", duration: 2800 },
-  { text: "I'll make you so proud of me", duration: 2800 },
-  { text: "We'll make 'em turn their heads every place we go", duration: 3800 },
-  { text: "So will you be my baby?", duration: 3500, highlight: true },
-  { text: "Be my little baby", duration: 3000 },
-  { text: "My one and only baby", duration: 3000 },
-  { text: "Say you'll be my baby now", duration: 4500 },
+  { text: "You know, I will adore you 'til eternity", duration: 4000 },
+  { text: "So won't you, please (be my, be my baby)", duration: 3500 },
+  {
+    text: "Be my little baby? (My one, and only baby)",
+    duration: 4000,
+    highlight: true,
+  },
+  { text: "Say you'll be my darlin' (be my, be my baby)", duration: 4000 },
+  { text: "Be my baby now (my one, and only baby)", duration: 4500 },
+  { text: "Whoa, oh, oh, oh, oh", duration: 3500 },
 ];
 
 export default function ValentineCard() {
