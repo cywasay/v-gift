@@ -16,8 +16,8 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata = {
-  title: "My Dearest Areeba",
-  description: "A gift for my dearest Areeba",
+  title: "My Dearest Khaterinya",
+  description: "A gift for my dearest Khaterinya",
 };
 
 export default function RootLayout({ children }) {
